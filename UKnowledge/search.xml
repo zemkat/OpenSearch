@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+     UKnowledge/search.xml - OpenSearch Description for UKnowledge searching
+	(c)2013 Kathryn Lybarger. CC-BY-SA
+-->
+<OpenSearchDescription xmlns="http://a9.com/-/spec/opensearch/1.1/">
+	<ShortName>UKnowledge</ShortName>
+	<Description>Search the Institutional Repository at the University of Kentucky.</Description>
+	<Tags>UKY</Tags>
+	<Image height="16" width="16" type="image/x-icon">http://uknowledge.uky.edu/favicon.ico</Image>
+	<Contact>uknowledge@zemkat.org</Contact>
+	<Url type="text/html" 
+        template="http://uknowledge.uky.edu/do/search/?q={searchTerms}"/>
+</OpenSearchDescription>
