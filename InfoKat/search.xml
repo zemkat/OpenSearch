@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+    InfoKat/search.xml - OpenSearch Description for InfoKat searching
+    (c)2013 Kathryn Lybarger. CC-BY-SA
+-->
+<OpenSearchDescription xmlns="http://a9.com/-/spec/opensearch/1.1/">
+	<ShortName>InfoKat (BIB ID)</ShortName>
+	<Description>View this BIB ID in the InfoKat library catalog at the University of Kentucky</Description>
+	<Tags>UKY</Tags>
+	<Image height="16" width="16" type="image/x-icon">http://www.zemkat.org/CTS/OpenSearch/InfoKat/favicon.ico</Image>
+	<Contact>infokat@zemkat.org</Contact>
+	<Url type="text/html" 
+        template="http://infokat.uky.edu/vwebv/holdingsInfo?bibId={searchTerms}"/>
+</OpenSearchDescription>

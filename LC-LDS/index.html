@@ -1,0 +1,46 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<!--
+    LC-LDS/index.html - install LC Linked Data Services search plugins
+    (c)2013 Kathryn Lybarger. CC-BY-SA
+-->
+<html xmlns="http://www.w3.org/1999/xhtml">
+	<head>
+		<style type="text/css">
+			div { border: 1px solid black; padding: 1em; }
+		</style>
+		<link rel="search" href="search-geoareas.xml" type="application/opensearchdescription+xml" title="MARC Geographic Areas" />
+		<link rel="search" href="search-countries.xml" type="application/opensearchdescription+xml" title="MARC Countries" />
+		<link rel="search" href="search-languages.xml" type="application/opensearchdescription+xml" title="MARC Languages" />
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<title>Install Search Engines: LC Linked Data Services</title>
+		<script type="text/javascript" src="../js/InstallSearch.js"></script>
+	</head>
+	<body>
+
+		<div>
+			<p>Press the button below to install the <strong>MARC Geographic Areas</strong> search plugin.</p>
+			<p>This plugin accepts a Geographic Area name (such as <em>Spain</em> or <em>Kentucky</em>) and includes a code suitable for inclusion
+	in MARC bibliographic field 043.
+			<p>
+				<button onclick="installSearchEngine('http://www.zemkat.org/CTS/OpenSearch/LC-LDS/search-geoareas.xml');">Install Search Engine</button>
+			</p>
+		</div>
+
+		<div>
+			<p>Press the button below to install the <strong>MARC Countries</strong> search plugin.</p>
+			<p>This plugin accepts a Country/State/Province (such as <em>Spain</em> or <em>Kentucky</em>) and includes a code suitable for inclusion in the MARC fixed field Ctry.
+			<p>
+				<button onclick="installSearchEngine('http://www.zemkat.org/CTS/OpenSearch/LC-LDS/search-countries.xml');">Install Search Engine</button>
+			</p>
+		</div>
+
+		<div>
+			<p>Press the button below to install the <strong>MARC languages</strong> search plugin.</p>
+			<p>This plugin accepts a Language (such as <em>Spanish</em>) and includes a code suitable for inclusion in the MARC fixed field Lang or the MARC field 041.
+			<p>
+				<button onclick="installSearchEngine('http://www.zemkat.org/CTS/OpenSearch/LC-LDS/search-geoareas.xml');">Install Search Engine</button>
+			</p>
+		</div>
+
+	</body>
+</html>

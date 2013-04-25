@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+    BibFormats/search.xml - OpenSearch Description for OCLC Bibliographic
+    Formats and Standards searching
+    (c)2013 Kathryn Lybarger. CC-BY-SA
+-->
+<OpenSearchDescription xmlns="http://a9.com/-/spec/opensearch/1.1/">
+	<ShortName>OCLC BibFormats (tag)</ShortName>
+	<Description>View the OCLC Bibliographic Formats and Standards documentation by tag</Description>
+	<Tags>UKY</Tags>
+	<Image height="16" width="16" type="image/x-icon">http://www.oclc.org/favicon.ico</Image>
+	<Contact>bibformats@zemkat.org</Contact>
+	<Url type="text/html"
+		template="http://www.zemkat.org/CTS/OpenSearch/BibFormats/lookup.php?tag={searchTerms}"/>
+</OpenSearchDescription>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OpenSearchDescription xmlns="http://a9.com/-/spec/opensearch/1.1/">
+	<ShortName>MARC Countries</ShortName>
+	<Description>Search the LC Linked Data Service for Country codes</Description>
+	<Tags>UKY</Tags>
+	<Image height="16" width="16" type="image/x-icon">http://www.loc.gov/favicon.ico</Image>
+	<Contact>marc-country@zemkat.org</Contact>
+	<Url type="text/html" 
+		template="http://id.loc.gov/search/?q={searchTerms}&amp;q=cs%3Ahttp%3A%2F%2Fid.loc.gov%2Fvocabulary%2Fcountries"/>
+</OpenSearchDescription>
