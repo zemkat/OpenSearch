@@ -7,6 +7,8 @@ OpenSearch browser plugins for use in your favorite browser
 * `LC-LDS` -- Search Library of Congress Linked Data Services services for specific vocabularies, including MARC Countries, MARC Languages and MARC Geographic Areas.
 * `BibFormats` -- Search OCLC Bibliographic Formats and Standards by tag number
 * `UKnowledge` -- Search UKnowledge (bepress) institutional repository
+* `RDA Toolkit` -- Search the RDA Toolkit by Rule number
+* `SuDoc` -- Search the Monthly Catalog and Catalog of U.S. Government Publications by SuDoc number
 
 These plugins have been tested under Firefox, Chrome, IE9 and Safari (with extension).
 
