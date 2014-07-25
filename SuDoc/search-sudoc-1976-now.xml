@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+     SuDoc/search-sudoc-1976-now.xml - OpenSearch Description for CGP SuDoc searching
+     (c)2014 Kathryn Lybarger. CC-BY-SA
+-->
+<OpenSearchDescription xmlns="http://a9.com/-/spec/opensearch/1.1/">
+	<ShortName>SuDoc 1976-now</ShortName>
+	<Description>Search the Catalog of U.S. Government Publications by SuDoc number (1976-)</Description>
+	<Tags>UKY</Tags>
+	<Image height="16" width="16" type="image/x-icon">http://catalog.gpo.gov/favicon.ico</Image>
+	<Contact>sudoc@zemkat.org</Contact>
+	<Url type="text/html" 
+		template="http://catalog.gpo.gov/F?func=find-c&amp;ccl_term=SUD%3D{searchTerms}" /> 
+</OpenSearchDescription>
+

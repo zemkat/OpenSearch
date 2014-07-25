@@ -1,0 +1,36 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<!--
+    SuDoc/index.html - install SuDoc number verification search plugins
+    (c)2014 Kathryn Lybarger. CC-BY-SA
+-->
+<html xmlns="http://www.w3.org/1999/xhtml">
+	<head>
+		<style type="text/css">
+			div { border: 1px solid black; padding: 1em; }
+		</style>
+		<link rel="search" href="search-sudoc-1895-1976.xml" type="application/opensearchdescription+xml" title="SuDoc pre-1976" />
+		<link rel="search" href="search-sudoc-1976-now.xml" type="application/opensearchdescription+xml" title="SuDoc 1976-" />
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<title>Install Search Engines: SuDoc searches</title>
+		<script type="text/javascript" src="../js/InstallSearch.js"></script>
+	</head>
+	<body>
+
+		<div>
+			<p>Press the button below to install the <strong>SuDoc pre-1976</strong> search plugin.</p>
+			<p>This plugin searches the Monthly Catalog of US Government Publications by SuDoc number.</p>
+			<p>
+				<button onclick="installSearchEngine('http://www.zemkat.org/CTS/OpenSearch/SuDoc/search-sudoc-1895-1976.xml');">Install Search Engine</button>
+			</p>
+		</div>
+
+		<div>
+			<p>Press the button below to install the <strong>SuDoc 1976-now</strong> search plugin.</p>
+			<p>This plugin searches the Catalog of US Government Publications by SuDoc number.</p>
+			<p>
+				<button onclick="installSearchEngine('http://www.zemkat.org/CTS/OpenSearch/SuDoc/search-sudoc-1976-now.xml');">Install Search Engine</button>
+			</p>
+		</div>
+
+	</body>
+</html>

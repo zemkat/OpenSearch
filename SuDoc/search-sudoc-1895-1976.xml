@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+     SuDoc/search-sudoc-1895-1976.xml - OpenSearch Description for Monthly Catalog SuDoc searching
+     (c)2014 Kathryn Lybarger. CC-BY-SA
+-->
+<OpenSearchDescription xmlns="http://a9.com/-/spec/opensearch/1.1/">
+	<ShortName>SuDoc 1895-1976</ShortName>
+	<Description>Search the Catalog of U.S. Government Publications by SuDoc number (mainpre-1976)</Description>
+	<Tags>UKY</Tags>
+	<Image height="16" width="16" type="image/x-icon">http://catalog.gpo.gov/favicon.ico</Image>
+	<Contact>sudoc@zemkat.org</Contact>
+	<Url type="text/html" 
+		template="http://zemkat.org/CTS/OpenSearch/SuDoc/search-sudoc-1895-1976.php?sudoc={searchTerms}" />
+</OpenSearchDescription>
