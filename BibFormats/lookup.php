@@ -15,16 +15,6 @@ if (isset($_REQUEST['tag']) && (preg_match("/^(\d)\d\d$/",$_REQUEST['tag'],$m)))
 		case "007";
 			$url = "https://www.oclc.org/bibformats/en/0xx.html";
 			break;
-		case "264":
-			$url = "http://www.loc.gov/aba/pcc/documents/264-Guidelines.doc";
-			break;
-		case "344":
-		case "345":
-		case "346":
-		case "347":
-		case "377":
-			$url = "https://www.oclc.org/support/services/worldcat/documentation/tb/261.en.html";
-			break;
 		default:
 			$url = "https://www.oclc.org/bibformats/en/${m[1]}xx/${m[0]}.html";
 	}
